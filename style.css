@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    outline: 0;
+    text-decoration: none;
+}
+
+body {
+    background: #E5E5E5;
+    width: 100vw;
+    height: 100vh;
+}
+
+a {
+    color: #0A3871;
+}
+
+a:hover {
+    color: #343A40;
+    transition: .5 ease-in-out
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.container-input {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.container-input .input-place {
+    width: 400px;
+    height: 330px;
+}
+
+#input-text {
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color: #0A3871;
+    background: transparent;
+    box-shadow: none;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+div p {
+    font-size: 12px;
+    color: #495057;
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid white;
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    margin-right: 3%;
+    background-color: white;
+}
+
+#output h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #343A40;
+}
+
+#output span {
+    font-size: 16px;
+    text-align: center;
+}
+
+#output img {
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+}
+
+.container-btn button {
+    border: 1px solid #0A3871;
+    border-radius: 22px;
+    text-decoration: none;
+    color: #0A3871;
+    width: 250px;
+    height: 50px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.btn-copiar{
+    border: 2px solid #0A3871;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #0A3871;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+.container-btn button:hover {
+    background-color: #0A3871;
+    color: #fff;
+    transition: .7s ease-in-out;
+    border: none;
+}
+
+.container-btn button:hover:nth-child(2) {
+    background-color: #c8d7e4;
+    color: #0A3871;
+    transition: .5s ease-in-out;
+    border: none;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    margin-top: 10px;
+}
+
+.rodape h3 {
+    font-size: 16px;
+}
